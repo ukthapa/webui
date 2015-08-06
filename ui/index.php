@@ -39,6 +39,14 @@
 	<h5>H5 - Heading</h5>
 	<h6>H6 - Heading</h6>
 
+	<h2>Heading <small>-with light font</small></h2>
+	<h1 class="light">H1 - Heading</h1>
+	<h2 class="light">H2 - Heading</h2>
+	<h3 class="light">H3 - Heading</h3>
+	<h4 class="light">H4 - Heading</h4>
+	<h5 class="light">H5 - Heading</h5>
+	<h6 class="light">H6 - Heading</h6>
+
 	<h2>Paragraph</h2>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque venenatis augue mollis commodo. Mauris elementum sed magna sit amet iaculis. </p>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque venenatis augue mollis commodo. Mauris elementum sed magna sit amet iaculis. Aenean vel iaculis mi, a luctus massa. Integer non mi risus. Quisque vehicula pellentesque lobortis. Sed rutrum elit in mollis lacinia. Vivamus in laoreet augue.</p>
