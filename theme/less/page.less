@@ -1,0 +1,122 @@
+/* PAGE STYLE */
+
+
+
+//FOOTER SECTION
+
+//Footer navigation
+
+footer {
+   color: @gray-light;
+   padding: 25px 0;
+   h5 {
+       color: @gray-light;
+   }
+   .heading {
+       color: @gray;
+       letter-spacing: .05em;
+       margin-top: 35px;
+       &:after {
+           content: "";
+           display: block;
+           height: 1px;
+           width: 25px;
+           background-color: @gray;
+           margin-top: 10px;
+           margin-bottom: 15px;
+       }
+   }
+    .footer-nav {
+        li {
+            margin-bottom: 15px;
+            letter-spacing: .05em;
+        } 
+        a {
+            display: block;  
+        }
+    }
+   
+    a {
+        color: lighten(@gray-light, 20%);
+            &:hover, &:focus {
+                color: @gray-light;
+            }
+            &:visited, &:active {
+                color: lighten(@gray-light, 20%);
+            }
+   }
+   hr {
+      border-top-color:  darken(@gray, 10%);
+   }
+   
+   .copyright {
+      font-family: @heading-font-family-light;
+      letter-spacing: .05em;
+      text-align: center;
+   }
+}
+
+
+.social-icons {
+    text-align: center;
+    a {
+        display: block;
+        color:  @gray;
+        &:hover, &:focus {
+            .fa  {
+                color: lighten(@gray, 20%) !important;
+            }
+            }
+        &:active,  &:visited {
+             color:  @gray;
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-md-min) {
+
+footer {
+    
+    .footer-nav {
+       a {
+        display: inline-block;
+        *zoom:1; *display:inline;
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+       }
+       
+    }
+    
+        .heading {
+            margin-top: 10px;
+            &:after {
+                margin-top: 10px;
+            }
+        }
+        .copyright {
+          text-align: left;
+       }
+        .social-icons {
+            text-align: right;
+        }
+    }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+    footer {
+         .copyright {
+          text-align: left;
+       }
+        .social-icons {
+            text-align: right;
+        }
+    }
+    
+}
+
+
+
+
+
